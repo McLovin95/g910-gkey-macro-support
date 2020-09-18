@@ -445,6 +445,13 @@ keys = {
         'ü': click(uinput.KEY_LEFTBRACE),
         'Ü': wrap_shift(click(uinput.KEY_LEFTBRACE)),
 
+        '→': click(uinput.KEY_RIGHT),
+        '←': click(uinput.KEY_LEFT),
+        '↑': click(uinput.KEY_UP),
+        '↓': click(uinput.KEY_DOWN),
+	'⏎': click(uinput.KEY_ENTER),
+
+        ' ': click(uinput.KEY_SPACE),
         '\t': click(uinput.KEY_TAB),
         '\n': click(uinput.KEY_ENTER),
         
